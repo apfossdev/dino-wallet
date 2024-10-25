@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { mnemonicToSeedSync } from "bip39";
 import nacl from "tweetnacl";
 import { derivePath } from "ed25519-hd-key";
